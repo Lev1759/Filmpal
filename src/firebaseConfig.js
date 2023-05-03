@@ -3,17 +3,6 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyBV5h8GaW3Ko2OdePM2btED27PcbEeYm_E",
-//   authDomain: "filmpal-a3ca1.firebaseapp.com",
-//   projectId: "filmpal-a3ca1",
-//   storageBucket: "filmpal-a3ca1.appspot.com",
-//   messagingSenderId: "96033816934",
-//   appId: "1:96033816934:web:46549f440efd5db81e48a7",
-//   measurementId: "G-5LJ4EP471T"
-// };
-
-
 const firebaseConfig = {
 apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
 authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
